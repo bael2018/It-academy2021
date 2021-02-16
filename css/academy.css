@@ -568,7 +568,7 @@ body{
 
 @keyframes down{
     100%{
-        transform: translate(0px, -1580px);
+        transform: translate(0px, -1620px);
     }
 }
 
