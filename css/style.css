@@ -3880,4 +3880,128 @@ main{
         top: 80%;
         left: 13%;
     }
+
+    .block6_upper div{
+        width: 80%;
+        padding: 30px 0;
+        margin-top: 40px !important;
+    }
+
+    .block6_apper{
+        width: 80% !important;
+        margin-top: 40px !important;
+    }
+
+    .block7_inside form label input{
+        width: 190px;
+    }
+
+    .block2_title{
+        width: 80%;
+        left: 10%;
+    }
+}
+
+@media screen and (max-width:413px){
+
+    .block7_inside form label{
+        font-size: 18px;
+    }
+
+    .block7_inside form p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:402px){
+
+    .quest_inner2{
+        margin-top: 250px;
+    }
+
+    .quest{
+        margin-bottom: 430px;
+    }
+
+    .footer_inner ul li a{
+        font-size: 16px;
+    }
+
+    .circle{
+        width: 600px;
+        height: 550px;
+        right: 10%;
+        top: -5%;
+    }
+    
+    .block2_inners{
+        width: 95%;
+    }
+
+    .about_right{
+        height: 50% !important;
+    }
+
+    .about_inside{
+        height: 630px;
+        padding-bottom: 130px;
+    }
+
+    .block6_lower{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:395px){
+
+    .quest_inner2{
+        margin-top: 300px;
+    }
+
+    .quest{
+        margin-bottom: 480px;
+    }
+
+    .block4_inner2 i{
+        font-size: 55px;
+        margin: 0px !important;
+    }
+
+    .block4_inner5 i{
+        font-size: 55px;
+    }
+
+    .block4_inner3 i{
+        font-size: 55px;
+    }
+
+    .block4_inner4 i{
+        font-size: 55px;
+    }
+
+    .block4_inner6 i{
+        font-size: 55px;
+    }
+
+    .block4_container .block4_inner1 div i{
+        font-size: 55px;
+        margin: 0px !important;
+    }
+    
+    .block1_title h1{
+        font-size: 33px;
+    }
+}
+
+@media screen and (max-width:377px){
+
+    .block7_inside form label input{
+        width: 170px;
+    }
+    
+    .block7_inside form .name input{
+        width: 140px;
+    }
+
+    ::-webkit-input-placeholder {font-size: 18px;}
 }
