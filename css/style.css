@@ -4039,3 +4039,10 @@ main{
         width: 80% !important;
     }
 }
+
+@media screen and (max-width:355px){
+
+    .quest{
+        margin-bottom: 530px;
+    }
+}
