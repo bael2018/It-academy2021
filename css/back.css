@@ -326,6 +326,7 @@ body{
     margin-top: 100px;
     padding: 70px 0;
     background: #000;
+    position: relative;
 }
 
 
@@ -348,7 +349,8 @@ body{
 
 
 .block2_content{
-    width: 100%;
+    width: 60%;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -372,12 +374,12 @@ body{
 .block2_banner img{
     position: absolute;
     top: -25px;
-    left: 34%;
+    left: 42%;
     transition: .3s;
 }
 
 .block2_banner1 img{
-    left: 35%;
+    left: 41%;
 }
 
 .block2_banner img:nth-child(2){
@@ -405,7 +407,7 @@ body{
     font-size: 16px;
     line-height: 1.7;
     font-weight: 500;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 
@@ -440,17 +442,28 @@ body{
 }
 
 
+.main_block2::before{
+    content: "";
+    top: 0;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    background: rgb(150,2,255);
+    background: linear-gradient(0deg, rgba(150,2,255,0.45702030812324934) 0%, rgba(0,0,0,1) 13%, rgba(0,0,0,1) 100%);
+    position: absolute;
+}
+
 
 /* banner2 */
 
 
 
 .block2_content .block2_banner2 img{
-    left: 37%;
+    left: 43%;
 }
 
 .block2_content .block2_banner2 img:nth-child(1){
-    left: 34%;
+    left: 41.7%;
 }
 
 
@@ -1099,7 +1112,7 @@ body{
     left: 0;
     background: rgb(14,46,138);
     height: 2px;
-    width: 60%;
+    width: 80%;
     bottom: -8px;
 }
 
