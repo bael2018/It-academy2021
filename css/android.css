@@ -2456,6 +2456,10 @@ body{
 
 @media screen and (max-width:375px){
 
+    .block7_inner1 h3{
+        font-size: 27px;
+    }
+
     .block3_container{
         grid-template: repeat(2, 140px) / repeat(4, 1fr);
     }
@@ -2480,15 +2484,46 @@ body{
     .block1_inner4{
         height: 450px !important;
     }
+
+    .block6_inner img:nth-child(2){
+        left: 24%;
+        top: 19%;
+        width: 50%;
+    }
+
+    .footer_inner ul li a{
+        font-size: 17px;
+    }
 }
 
 @media screen and (max-width:350px){
+
+    .block7_inner1 h3{
+        font-size: 25px;
+    }
 
     .block1_container2{
         margin-top: 150px;
     }
 
     .block1_inner4{
-        height: 480px !important;
+        height: 510px !important;
+        padding-top: 10px !important;
+    }
+
+    .circle{
+        width: 500px;
+        height: 500px;
+        right: 1%;
+        top: -5%;
+    }
+
+    .block6_inner div{
+        width: 80%;
+        left: 10%;
+    }
+
+    .form-control {
+        font-size: 18px !important;
     }
 }
