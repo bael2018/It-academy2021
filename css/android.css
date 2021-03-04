@@ -1903,6 +1903,7 @@ body{
 
     .block1_inner4{
         height: 330px !important;
+        border: 1px solid red;
     }
     
     .block2_content{
@@ -2113,7 +2114,7 @@ body{
     }
 
     .block3_container{
-        grid-template: repeat(2, 220px) / repeat(4, 1fr);
+        grid-template: repeat(2, 200px) / repeat(4, 1fr);
     }
 
     .block3_inner1{
@@ -2153,5 +2154,241 @@ body{
         height: 600px;
         right: 6%;
         top: -20%;
+    }
+}
+
+@media screen and (max-width:500px){
+
+    .block6_inner{
+        margin-top: 50px;
+        height: 40% !important;
+        width: 95% !important;
+    }
+      
+    .block6_inside{
+        margin-top: 0px;
+    }
+
+    .block6_upper{
+        margin-bottom: 10px;
+    }
+    
+    .block3_container{
+        grid-template: repeat(2, 180px) / repeat(4, 1fr);
+    }
+
+    .block7_inner1{
+        width: 95%;
+    }
+
+    .block7_inner2{
+        width: 95%;
+        margin-top: 300px;
+    }
+
+    .java_right{
+        height: 250px;
+    }
+    
+    .block5_inside2 .block5_inner1{
+        order: 2;
+        width: 100%;
+        height: 280px;
+        border: 1px solid red;
+    }
+
+    .block5_inside2 .block5_inner2{
+        order: 1;
+        height: 300px;
+        width: 80%;
+    }
+
+    .block5_inner1{
+        height: 300px;
+        width: 80%;
+    }
+
+    .block1_inner1,
+    .block1_inner3{
+        width: 90%;
+        height: 350px;
+    }
+
+    .block1_inner4{
+        height: 400px !important;
+    }
+
+    .header_buttons{
+        left: 12%;
+        top: 12%;
+    }
+
+    .info{
+        left: 17.5%;
+        top: 70%;
+    }
+
+    .header_title img{
+        display: none;
+    }
+
+    .circle{
+        width: 500px;
+        height: 500px;
+        right: 20%;
+        top: -5%;
+    }
+
+    .header_container{
+        height: 450px;
+    }
+
+    .block7_inner1 h3{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width:475px){
+
+    .block6_upper h1{
+        font-size: 45px;
+    }
+
+    .block6_upper h1::before{
+        width: 20%;
+        left: 40%;
+    }
+
+    .block6_upper p{
+        width: 80%;
+        font-size: 15px;
+    }
+    
+    .block6_inner div{
+        width: 60%;
+        right: 2%;
+        top: 7%;
+    }
+
+    .block6_inner div h3{
+        font-size: 25px;
+    }
+
+    .block6_inner div p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:450px){
+
+    .block1_inner4{
+        height: 450px !important;
+        border: 1px solid red;
+    }
+    
+    .block1_container2{
+        margin-top: 90px;
+    }
+
+    .circle{
+        width: 550px;
+        height: 550px;
+        right: 10%;
+        top: -8%;
+    }
+
+    .block2_banner img{
+        left: 31%;
+    }
+        
+    .block2_content .block2_banner2 img{
+        left: 34%;
+    }
+        
+    .block2_content .block2_banner2 img:nth-child(1){
+        left: 31%;
+    }
+
+    .block5_inside2 .block5_inner1{
+        order: 2;
+        height: 310px;
+        border: 1px solid red;
+    }
+
+    .block3_container{
+        grid-template: repeat(2, 170px) / repeat(4, 1fr);
+    }
+
+    .block6_inner{
+        margin-top: 50px;
+        height: 38% !important;
+        width: 95% !important;
+    }
+
+    .block6_inside2{
+        margin-top: 230px !important;
+    }
+
+    .block5_inside2 .block5_inner2{
+        order: 1;
+        height: 290px;
+        width: 90%;
+    }
+
+    .block5_inner1{
+        height: 290px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:425px){
+
+    .block5_inside2 .block5_inner1{
+        order: 2;
+        height: 320px;
+        border: 1px solid red;
+    }
+
+    .block4_inner2{
+        width: 70%;
+    }
+    
+    .block7_inner1 h3{
+        font-size: 29px;
+    }
+
+    .block6_inner div{
+        width: 70%;
+        left: 15%;
+        height: 80%;
+        top: 7%;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .block6_inner img:nth-child(2){
+        left: 28%;
+        top: 20%;
+        width: 40%;
+        pointer-events: all;
+        opacity: 1;
+    }
+
+    .block6_inner:hover img:nth-child(1){
+        opacity: 0;
+    }
+
+    .block6_inner:hover div{
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    .block6_inner{
+        height: 40% !important;
+        width: 80% !important;
+    }
+
+    .block6_inside2{
+        margin-top: 260px !important;
     }
 }
