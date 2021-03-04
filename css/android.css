@@ -379,7 +379,7 @@ body{
 }
 
 .block2_banner1 img{
-    left: 41%;
+    left: 42%;
 }
 
 .block2_banner img:nth-child(2){
@@ -2499,7 +2499,7 @@ body{
 @media screen and (max-width:366px){
 
     .block1_container2{
-        margin-top: 130px;
+        margin-top: 140px;
     }
 }   
 
