@@ -1380,11 +1380,18 @@ body{
 
     .info{
         top: 75%;
-        left: 20%;
+        left: 18%;
     }
 
     .header_buttons{
         top: 13%;
-        left: 15%;
+        left: 13%;
+    }
+
+    .circle{
+        width: 750px;
+        height: 750px;
+        right: 7%;
+        top: -25%;
     }
 }
