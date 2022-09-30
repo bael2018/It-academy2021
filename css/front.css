@@ -327,6 +327,7 @@ body{
     margin-top: 100px;
     padding: 70px 0;
     position: relative;
+    overflow-x: hidden;
     background: #000;
 }
 
